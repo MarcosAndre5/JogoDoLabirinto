@@ -1,4 +1,4 @@
-package aula10_11;
+package ...;
 
 public class JogoLabirinto {	
 	private static final char PAREDE_VERTICAL = '|';
@@ -56,12 +56,12 @@ public class JogoLabirinto {
 		iniciarMatriz();
 		imprimirTabuleiro();
 		
-		System.out.println("\n- Procurando solução -\n"); 
+		System.out.println("\n- Procurando soluÃ§Äƒo -\n"); 
 		boolean achou = procurarCaminho(linhaInicio, colunaInicio); 
 		if (achou) { 
 			System.out.println("\nACHOU O CAMINHO!"); 
 		} else { 
-			System.out.println("\nNÃO TEM CAMINHO!"); 
+			System.out.println("\nNÄ‚O TEM CAMINHO!"); 
 		}
 	}
 	
